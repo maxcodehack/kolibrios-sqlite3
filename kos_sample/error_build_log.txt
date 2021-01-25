@@ -1,0 +1,3 @@
+../libsqlite.a(main.o):main.c:(.text+0x8c1): undefined reference to `sqlite3_os_end'
+../libsqlite.a(vdbeaux.o):vdbeaux.c:(.text+0x1eb6): undefined reference to `sqlite3OpcodeName'
+../libsqlite.a(os.o):os.c:(.text+0x43f): undefined reference to `sqlite3_os_init

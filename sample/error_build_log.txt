@@ -1,0 +1,2 @@
+../libsqlite.a(main.o):main.c:(.text+0x8c1): undefined reference to `sqlite3_os_end'
+../libsqlite.a(os.o):os.c:(.text+0x43f): undefined reference to `sqlite3_os_init

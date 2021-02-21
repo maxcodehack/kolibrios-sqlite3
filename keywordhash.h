@@ -291,7 +291,7 @@ static int keywordCode(const char *z, int n, int *pType){
   int i, j;
   const char *zKW;
   if( n>=2 ){
-    i = ((charMap(z[0])*4) ^ (charMap(z[n-1])*3) ^ n*1) % 127;
+    i = ((charMap(z[0])*4) ^ (charMap(z[n-1])*3) ^ n) % 127;
     for(i=((int)aKWHash[i])-1; i>=0; i=((int)aKWNext[i])-1){
       if( aKWLen[i]!=n ) continue;
       zKW = &zKWText[aKWOffset[i]];
